@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-smokesuite" class="navigator-link">
+              <span class="suite-name border-failed">smokesuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-smokesuite" class="navigator-link ">
+                    <span>E:\java_selenium\TripAdvisor\TestExceution.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-smokesuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-smokesuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-smokesuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-smokesuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-smokesuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-smokesuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 1 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-smokesuite" class="hide-methods failed suite-smokesuite"> (hide)</a> <!-- hide-methods failed suite-smokesuite -->
+                      <a href="#" panel-name="suite-smokesuite" class="show-methods failed suite-smokesuite"> (show)</a> <!-- show-methods failed suite-smokesuite -->
+                    </span>
+                    <div class="method-list-content failed suite-smokesuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smokesuite" title="Test.ReviewSubmitTest" class="method navigator-link" hash-for-method="ratings_for_hotel_ratings">ratings_for_hotel_ratings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-smokesuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-smokesuite" class="hide-methods passed suite-smokesuite"> (hide)</a> <!-- hide-methods passed suite-smokesuite -->
+                      <a href="#" panel-name="suite-smokesuite" class="show-methods passed suite-smokesuite"> (show)</a> <!-- show-methods passed suite-smokesuite -->
+                    </span>
+                    <div class="method-list-content passed suite-smokesuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smokesuite" title="Test.ReviewSubmitTest" class="method navigator-link" hash-for-method="click_on_reviewLink">click_on_reviewLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smokesuite" title="Test.ReviewSubmitTest" class="method navigator-link" hash-for-method="enteringInputInSearch">enteringInputInSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smokesuite" title="Test.ReviewSubmitTest" class="method navigator-link" hash-for-method="move_on_reviewLink">move_on_reviewLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smokesuite" title="Test.ReviewSubmitTest" class="method navigator-link" hash-for-method="move_to_hotelRatings">move_to_hotelRatings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smokesuite" title="Test.ReviewSubmitTest" class="method navigator-link" hash-for-method="move_to_submitButton">move_to_submitButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smokesuite" title="Test.ReviewSubmitTest" class="method navigator-link" hash-for-method="navigate_to_homePage">navigate_to_homePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smokesuite" title="Test.ReviewSubmitTest" class="method navigator-link" hash-for-method="navigate_to_resultPage">navigate_to_resultPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smokesuite" title="Test.ReviewSubmitTest" class="method navigator-link" hash-for-method="navigate_to_reviewPage">navigate_to_reviewPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smokesuite" title="Test.ReviewSubmitTest" class="method navigator-link" hash-for-method="navigate_to_submit_review">navigate_to_submit_review</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smokesuite" title="Test.ReviewSubmitTest" class="method navigator-link" hash-for-method="review">review</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-smokesuite" title="Test.ReviewSubmitTest" class="method navigator-link" hash-for-method="validate_homePage">validate_homePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-smokesuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-smokesuite" class="panel smokesuite">
+          <div class="suite-smokesuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test.ReviewSubmitTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ratings_for_hotel_ratings">
+                  </a> <!-- ratings_for_hotel_ratings -->
+                  <span class="method-name">ratings_for_hotel_ratings</span>
+                  <div class="stack-trace">org.openqa.selenium.JavascriptException: javascript error: Failed to execute &apos;elementsFromPoint&apos; on &apos;Document&apos;: The provided double value is non-finite.
+  (Session info: chrome=79.0.3945.88)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-OIGE0TE&apos;, ip: &apos;192.168.0.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8693b8da4fd69974297a494f461831ff
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at framework.EventMethods.move_to_element_with_offset(EventMethods.java:19)
+	at pages.ReviewSubmitPage.ratings_to_hotel(ReviewSubmitPage.java:34)
+	at Test.ReviewSubmitTest.ratings_for_hotel_ratings(ReviewSubmitTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-smokesuite-class-failed -->
+          <div class="suite-smokesuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.ReviewSubmitTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_reviewLink">
+                  </a> <!-- click_on_reviewLink -->
+                  <span class="method-name">click_on_reviewLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enteringInputInSearch">
+                  </a> <!-- enteringInputInSearch -->
+                  <span class="method-name">enteringInputInSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="move_on_reviewLink">
+                  </a> <!-- move_on_reviewLink -->
+                  <span class="method-name">move_on_reviewLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="move_to_hotelRatings">
+                  </a> <!-- move_to_hotelRatings -->
+                  <span class="method-name">move_to_hotelRatings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="move_to_submitButton">
+                  </a> <!-- move_to_submitButton -->
+                  <span class="method-name">move_to_submitButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigate_to_homePage">
+                  </a> <!-- navigate_to_homePage -->
+                  <span class="method-name">navigate_to_homePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigate_to_resultPage">
+                  </a> <!-- navigate_to_resultPage -->
+                  <span class="method-name">navigate_to_resultPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigate_to_reviewPage">
+                  </a> <!-- navigate_to_reviewPage -->
+                  <span class="method-name">navigate_to_reviewPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigate_to_submit_review">
+                  </a> <!-- navigate_to_submit_review -->
+                  <span class="method-name">navigate_to_submit_review</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="review">
+                  </a> <!-- review -->
+                  <span class="method-name">review</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_homePage">
+                  </a> <!-- validate_homePage -->
+                  <span class="method-name">validate_homePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-smokesuite-class-passed -->
+        </div> <!-- panel smokesuite -->
+        <div panel-name="test-xml-smokesuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\java_selenium\TripAdvisor\TestExceution.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;smokesuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;testcase1&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://www.crmpro.com/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.ReviewSubmitTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testcase1 --&gt;
+&lt;/suite&gt; &lt;!-- smokesuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-smokesuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for smokesuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">testcase1 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-smokesuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for smokesuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-smokesuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for smokesuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_smokesuite');
+function tableData_smokesuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'navigate_to_homePage')
+data.setCell(0, 2, 'Test.ReviewSubmitTest')
+data.setCell(0, 3, 24154);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'move_on_reviewLink')
+data.setCell(1, 2, 'Test.ReviewSubmitTest')
+data.setCell(1, 3, 8055);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ratings_for_hotel_ratings')
+data.setCell(2, 2, 'Test.ReviewSubmitTest')
+data.setCell(2, 3, 6491);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'review')
+data.setCell(3, 2, 'Test.ReviewSubmitTest')
+data.setCell(3, 3, 3431);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'navigate_to_resultPage')
+data.setCell(4, 2, 'Test.ReviewSubmitTest')
+data.setCell(4, 3, 2795);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'navigate_to_submit_review')
+data.setCell(5, 2, 'Test.ReviewSubmitTest')
+data.setCell(5, 3, 1863);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'enteringInputInSearch')
+data.setCell(6, 2, 'Test.ReviewSubmitTest')
+data.setCell(6, 3, 1395);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'click_on_reviewLink')
+data.setCell(7, 2, 'Test.ReviewSubmitTest')
+data.setCell(7, 3, 514);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validate_homePage')
+data.setCell(8, 2, 'Test.ReviewSubmitTest')
+data.setCell(8, 3, 112);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'move_to_submitButton')
+data.setCell(9, 2, 'Test.ReviewSubmitTest')
+data.setCell(9, 3, 42);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'move_to_hotelRatings')
+data.setCell(10, 2, 'Test.ReviewSubmitTest')
+data.setCell(10, 3, 35);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'navigate_to_reviewPage')
+data.setCell(11, 2, 'Test.ReviewSubmitTest')
+data.setCell(11, 3, 15);
+window.suiteTableData['smokesuite']= { tableData: data, tableDiv: 'times-div-smokesuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
+              <div id="times-div-smokesuite">
+              </div> <!-- times-div-smokesuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-smokesuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for smokesuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-smokesuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-smokesuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.ReviewSubmitTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforesuite(org.testng.TestRunner@478b0739)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@478b0739)</span>
+                <span class="method-start">2027 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(public void Test.HomePageTest.navigate_to_homePage())</span>
+                <span class="method-start">2059 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigate_to_homePage</span>
+                <span class="method-start">2062 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resultstatus([TestResult name=navigate_to_homePage status=SUCCESS method=HomePageTest.navigate_to_homePage()[pri:...)</span>
+                <span class="method-start">26222 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(public void Test.HomePageTest.validate_homePage())</span>
+                <span class="method-start">27373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validate_homePage</span>
+                <span class="method-start">27375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resultstatus([TestResult name=validate_homePage status=SUCCESS method=HomePageTest.validate_homePage()[pri:2, ins...)</span>
+                <span class="method-start">27489 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(public void Test.HomePageTest.navigate_to_resultPage())</span>
+                <span class="method-start">28373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigate_to_resultPage</span>
+                <span class="method-start">28374 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resultstatus([TestResult name=navigate_to_resultPage status=SUCCESS method=HomePageTest.navigate_to_resultPage()[...)</span>
+                <span class="method-start">31171 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(public void Test.ResultPageTest.enteringInputInSearch())</span>
+                <span class="method-start">32103 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enteringInputInSearch</span>
+                <span class="method-start">32104 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resultstatus([TestResult name=enteringInputInSearch status=SUCCESS method=ResultPageTest.enteringInputInSearch()[...)</span>
+                <span class="method-start">33505 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(public void Test.ResultPageTest.navigate_to_reviewPage())</span>
+                <span class="method-start">34072 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigate_to_reviewPage</span>
+                <span class="method-start">34073 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resultstatus([TestResult name=navigate_to_reviewPage status=SUCCESS method=ResultPageTest.navigate_to_reviewPage(...)</span>
+                <span class="method-start">34090 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(public void Test.ResultPageTest.move_on_reviewLink())</span>
+                <span class="method-start">34498 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">move_on_reviewLink</span>
+                <span class="method-start">34499 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resultstatus([TestResult name=move_on_reviewLink status=SUCCESS method=ResultPageTest.move_on_reviewLink()[pri:6,...)</span>
+                <span class="method-start">42555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(public void Test.ResultPageTest.click_on_reviewLink())</span>
+                <span class="method-start">43256 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">click_on_reviewLink</span>
+                <span class="method-start">43257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resultstatus([TestResult name=click_on_reviewLink status=SUCCESS method=ResultPageTest.click_on_reviewLink()[pri:...)</span>
+                <span class="method-start">43772 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(public void Test.ResultPageTest.navigate_to_submit_review())</span>
+                <span class="method-start">44431 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigate_to_submit_review</span>
+                <span class="method-start">44432 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resultstatus([TestResult name=navigate_to_submit_review status=SUCCESS method=ResultPageTest.navigate_to_submit_r...)</span>
+                <span class="method-start">46297 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(public void Test.ReviewSubmitTest.review())</span>
+                <span class="method-start">46765 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">review</span>
+                <span class="method-start">46766 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resultstatus([TestResult name=review status=SUCCESS method=ReviewSubmitTest.review()[pri:9, instance:Test.ReviewS...)</span>
+                <span class="method-start">50200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(public void Test.ReviewSubmitTest.move_to_hotelRatings())</span>
+                <span class="method-start">50755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">move_to_hotelRatings</span>
+                <span class="method-start">50756 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resultstatus([TestResult name=move_to_hotelRatings status=SUCCESS method=ReviewSubmitTest.move_to_hotelRatings()[...)</span>
+                <span class="method-start">50791 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(public void Test.ReviewSubmitTest.ratings_for_hotel_ratings() throws java.lang.Exception)</span>
+                <span class="method-start">51195 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ratings_for_hotel_ratings</span>
+                <span class="method-start">51195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resultstatus([TestResult name=ratings_for_hotel_ratings status=FAILURE method=ReviewSubmitTest.ratings_for_hotel_...)</span>
+                <span class="method-start">57716 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod(public void Test.ReviewSubmitTest.move_to_submitButton())</span>
+                <span class="method-start">58112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">move_to_submitButton</span>
+                <span class="method-start">58112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">resultstatus([TestResult name=move_to_submitButton status=SUCCESS method=ReviewSubmitTest.move_to_submitButton()[...)</span>
+                <span class="method-start">58157 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">58575 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">aftersuite</span>
+                <span class="method-start">58639 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

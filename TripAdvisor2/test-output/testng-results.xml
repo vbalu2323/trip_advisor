@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-25T21:10:31 IST" name="smokesuite" finished-at="2019-12-25T21:11:28 IST" duration-ms="56549">
+    <groups>
+    </groups>
+    <test started-at="2019-12-25T21:10:31 IST" name="testcase1" finished-at="2019-12-25T21:11:28 IST" duration-ms="56549">
+      <class name="Test.ReviewSubmitTest">
+        <test-method is-config="true" signature="beforesuite(org.testng.ITestContext)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:10:29 IST" name="beforesuite" finished-at="2019-12-25T21:10:31 IST" duration-ms="2025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@478b0739]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:10:31 IST" name="beforeTest" finished-at="2019-12-25T21:10:31 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@478b0739]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:10:31 IST" name="beforemethod" finished-at="2019-12-25T21:10:31 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.HomePageTest.navigate_to_homePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="navigate_to_homePage()[pri:1, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:10:31 IST" name="navigate_to_homePage" finished-at="2019-12-25T21:10:56 IST" duration-ms="24154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_homePage -->
+        <test-method is-config="true" signature="resultstatus(org.testng.ITestResult)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:10:56 IST" name="resultstatus" finished-at="2019-12-25T21:10:57 IST" duration-ms="1132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigate_to_homePage status=SUCCESS method=HomePageTest.navigate_to_homePage()[pri:1, instance:Test.ReviewSubmitTest@2177849e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultstatus -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:10:57 IST" name="beforemethod" finished-at="2019-12-25T21:10:57 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.HomePageTest.validate_homePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="validate_homePage()[pri:2, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:10:57 IST" name="validate_homePage" finished-at="2019-12-25T21:10:57 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_homePage -->
+        <test-method is-config="true" signature="resultstatus(org.testng.ITestResult)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:10:57 IST" name="resultstatus" finished-at="2019-12-25T21:10:58 IST" duration-ms="883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validate_homePage status=SUCCESS method=HomePageTest.validate_homePage()[pri:2, instance:Test.ReviewSubmitTest@2177849e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultstatus -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:10:58 IST" name="beforemethod" finished-at="2019-12-25T21:10:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.HomePageTest.navigate_to_resultPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="navigate_to_resultPage()[pri:3, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:10:58 IST" name="navigate_to_resultPage" finished-at="2019-12-25T21:11:01 IST" duration-ms="2795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_resultPage -->
+        <test-method is-config="true" signature="resultstatus(org.testng.ITestResult)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:01 IST" name="resultstatus" finished-at="2019-12-25T21:11:01 IST" duration-ms="931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigate_to_resultPage status=SUCCESS method=HomePageTest.navigate_to_resultPage()[pri:3, instance:Test.ReviewSubmitTest@2177849e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultstatus -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:01 IST" name="beforemethod" finished-at="2019-12-25T21:11:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.ResultPageTest.enteringInputInSearch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="enteringInputInSearch()[pri:4, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:01 IST" name="enteringInputInSearch" finished-at="2019-12-25T21:11:03 IST" duration-ms="1395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteringInputInSearch -->
+        <test-method is-config="true" signature="resultstatus(org.testng.ITestResult)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:03 IST" name="resultstatus" finished-at="2019-12-25T21:11:03 IST" duration-ms="566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enteringInputInSearch status=SUCCESS method=ResultPageTest.enteringInputInSearch()[pri:4, instance:Test.ReviewSubmitTest@2177849e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultstatus -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:03 IST" name="beforemethod" finished-at="2019-12-25T21:11:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.ResultPageTest.navigate_to_reviewPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="navigate_to_reviewPage()[pri:5, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:03 IST" name="navigate_to_reviewPage" finished-at="2019-12-25T21:11:03 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_reviewPage -->
+        <test-method is-config="true" signature="resultstatus(org.testng.ITestResult)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:03 IST" name="resultstatus" finished-at="2019-12-25T21:11:04 IST" duration-ms="408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigate_to_reviewPage status=SUCCESS method=ResultPageTest.navigate_to_reviewPage()[pri:5, instance:Test.ReviewSubmitTest@2177849e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultstatus -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:04 IST" name="beforemethod" finished-at="2019-12-25T21:11:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.ResultPageTest.move_on_reviewLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="move_on_reviewLink()[pri:6, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:04 IST" name="move_on_reviewLink" finished-at="2019-12-25T21:11:12 IST" duration-ms="8055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- move_on_reviewLink -->
+        <test-method is-config="true" signature="resultstatus(org.testng.ITestResult)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:12 IST" name="resultstatus" finished-at="2019-12-25T21:11:13 IST" duration-ms="701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=move_on_reviewLink status=SUCCESS method=ResultPageTest.move_on_reviewLink()[pri:6, instance:Test.ReviewSubmitTest@2177849e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultstatus -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:13 IST" name="beforemethod" finished-at="2019-12-25T21:11:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.ResultPageTest.click_on_reviewLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="click_on_reviewLink()[pri:7, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:13 IST" name="click_on_reviewLink" finished-at="2019-12-25T21:11:13 IST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_reviewLink -->
+        <test-method is-config="true" signature="resultstatus(org.testng.ITestResult)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:13 IST" name="resultstatus" finished-at="2019-12-25T21:11:14 IST" duration-ms="658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=click_on_reviewLink status=SUCCESS method=ResultPageTest.click_on_reviewLink()[pri:7, instance:Test.ReviewSubmitTest@2177849e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultstatus -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:14 IST" name="beforemethod" finished-at="2019-12-25T21:11:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.ResultPageTest.navigate_to_submit_review()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="navigate_to_submit_review()[pri:8, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:14 IST" name="navigate_to_submit_review" finished-at="2019-12-25T21:11:16 IST" duration-ms="1863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_submit_review -->
+        <test-method is-config="true" signature="resultstatus(org.testng.ITestResult)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:16 IST" name="resultstatus" finished-at="2019-12-25T21:11:16 IST" duration-ms="467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigate_to_submit_review status=SUCCESS method=ResultPageTest.navigate_to_submit_review()[pri:8, instance:Test.ReviewSubmitTest@2177849e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultstatus -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:16 IST" name="beforemethod" finished-at="2019-12-25T21:11:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.ReviewSubmitTest.review()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="review()[pri:9, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:16 IST" name="review" finished-at="2019-12-25T21:11:20 IST" duration-ms="3431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- review -->
+        <test-method is-config="true" signature="resultstatus(org.testng.ITestResult)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:20 IST" name="resultstatus" finished-at="2019-12-25T21:11:20 IST" duration-ms="554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=review status=SUCCESS method=ReviewSubmitTest.review()[pri:9, instance:Test.ReviewSubmitTest@2177849e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultstatus -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:20 IST" name="beforemethod" finished-at="2019-12-25T21:11:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.ReviewSubmitTest.move_to_hotelRatings()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="move_to_hotelRatings()[pri:10, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:20 IST" name="move_to_hotelRatings" finished-at="2019-12-25T21:11:20 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- move_to_hotelRatings -->
+        <test-method is-config="true" signature="resultstatus(org.testng.ITestResult)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:20 IST" name="resultstatus" finished-at="2019-12-25T21:11:21 IST" duration-ms="403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=move_to_hotelRatings status=SUCCESS method=ReviewSubmitTest.move_to_hotelRatings()[pri:10, instance:Test.ReviewSubmitTest@2177849e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultstatus -->
+        <test-method signature="ratings_for_hotel_ratings()[pri:11, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:21 IST" name="ratings_for_hotel_ratings" finished-at="2019-12-25T21:11:27 IST" duration-ms="6491" status="FAIL">
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=79.0.3945.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OIGE0TE', ip: '192.168.0.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8693b8da4fd69974297a494f461831ff]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=79.0.3945.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OIGE0TE', ip: '192.168.0.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8693b8da4fd69974297a494f461831ff
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+at framework.EventMethods.move_to_element_with_offset(EventMethods.java:19)
+at pages.ReviewSubmitPage.ratings_to_hotel(ReviewSubmitPage.java:34)
+at Test.ReviewSubmitTest.ratings_for_hotel_ratings(ReviewSubmitTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ratings_for_hotel_ratings -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:21 IST" name="beforemethod" finished-at="2019-12-25T21:11:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.ReviewSubmitTest.ratings_for_hotel_ratings() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="resultstatus(org.testng.ITestResult)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:27 IST" name="resultstatus" finished-at="2019-12-25T21:11:27 IST" duration-ms="395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ratings_for_hotel_ratings status=FAILURE method=ReviewSubmitTest.ratings_for_hotel_ratings()[pri:11, instance:Test.ReviewSubmitTest@2177849e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultstatus -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:27 IST" name="beforemethod" finished-at="2019-12-25T21:11:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.ReviewSubmitTest.move_to_submitButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="move_to_submitButton()[pri:12, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:27 IST" name="move_to_submitButton" finished-at="2019-12-25T21:11:28 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- move_to_submitButton -->
+        <test-method is-config="true" signature="resultstatus(org.testng.ITestResult)[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:28 IST" name="resultstatus" finished-at="2019-12-25T21:11:28 IST" duration-ms="417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=move_to_submitButton status=SUCCESS method=ReviewSubmitTest.move_to_submitButton()[pri:12, instance:Test.ReviewSubmitTest@2177849e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultstatus -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:28 IST" name="afterTest" finished-at="2019-12-25T21:11:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:Test.ReviewSubmitTest@2177849e]" started-at="2019-12-25T21:11:28 IST" name="aftersuite" finished-at="2019-12-25T21:11:28 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- Test.ReviewSubmitTest -->
+    </test> <!-- testcase1 -->
+  </suite> <!-- smokesuite -->
+</testng-results>

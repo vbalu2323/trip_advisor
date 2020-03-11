@@ -1,0 +1,13 @@
+2019-12-25 00:47:46.230 [      main]TRACE                          - Initializting the log file in before suite
+2019-12-25 00:47:46.242 [      main]TRACE                          - beforetest annotations has been used for the test: Default test
+2019-12-25 00:47:46.283 [      main]TRACE                          - Executing the test case:navigate_to_homePage
+2019-12-25 00:47:46.283 [      main]INFO                           - Launching the browser
+2019-12-25 00:48:34.789 [      main]INFO                           - Application is launched
+2019-12-25 00:48:35.263 [      main]TRACE                          - Completed the testcase:navigate_to_homePage
+2019-12-25 00:48:35.263 [      main]TRACE                          - Executing the test case:validate_homePage
+2019-12-25 00:48:35.263 [      main]TRACE                          - Validating the home page title
+2019-12-25 00:48:40.811 [      main]TRACE                          - Completed the testcase:validate_homePage
+2019-12-25 00:48:40.817 [      main]TRACE                          - Executing the test case:navigate_to_searchPage
+2019-12-25 00:48:40.818 [      main]TRACE                          - Navigating to the Search Page
+2019-12-25 00:48:51.334 [      main]TRACE                          - Completed the testcase:navigate_to_searchPage
+2019-12-25 00:48:52.020 [      main]TRACE                          - Exceution has been completed

@@ -1,0 +1,19 @@
+2019-12-25 01:21:17.315 [      main]TRACE                          - Initializting the log file in before suite
+2019-12-25 01:21:17.321 [      main]TRACE                          - beforetest annotations has been used for the test: Default test
+2019-12-25 01:21:17.351 [      main]TRACE                          - Executing the test case:navigate_to_homePage
+2019-12-25 01:21:17.360 [      main]INFO                           - Launching the browser
+2019-12-25 01:21:38.517 [      main]INFO                           - Application is launched
+2019-12-25 01:21:39.666 [      main]TRACE                          - Completed the testcase:navigate_to_homePage
+2019-12-25 01:21:39.669 [      main]TRACE                          - Executing the test case:validate_homePage
+2019-12-25 01:21:39.671 [      main]TRACE                          - Validating the home page title
+2019-12-25 01:21:39.757 [      main]TRACE                          - Home page title is validated
+2019-12-25 01:21:40.626 [      main]TRACE                          - Completed the testcase:validate_homePage
+2019-12-25 01:21:40.627 [      main]TRACE                          - Executing the test case:navigate_to_resultPage
+2019-12-25 01:21:40.630 [      main]TRACE                          - Navigating to the Result Page
+2019-12-25 01:21:43.355 [      main]TRACE                          - Navigated to Result Page
+2019-12-25 01:21:44.130 [      main]TRACE                          - Completed the testcase:navigate_to_resultPage
+2019-12-25 01:21:44.131 [      main]TRACE                          - Executing the test case:enteringInputInSearch
+2019-12-25 01:21:46.111 [      main]TRACE                          - Completed the testcase:enteringInputInSearch
+2019-12-25 01:21:46.112 [      main]TRACE                          - Executing the test case:navigate_to_reviewPage
+2019-12-25 01:21:46.546 [      main]TRACE                          - Completed the testcase:navigate_to_reviewPage
+2019-12-25 01:21:47.468 [      main]TRACE                          - Exceution has been completed

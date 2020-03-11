@@ -1,0 +1,31 @@
+2019-12-25 02:28:28.614 [      main]TRACE                          - Initializting the log file in before suite
+2019-12-25 02:28:28.620 [      main]TRACE                          - beforetest annotations has been used for the test: Default test
+2019-12-25 02:28:28.650 [      main]TRACE                          - Executing the test case:navigate_to_homePage
+2019-12-25 02:28:28.658 [      main]INFO                           - Launching the browser
+2019-12-25 02:29:04.352 [      main]INFO                           - Application is launched
+2019-12-25 02:29:05.522 [      main]TRACE                          - Completed the testcase:navigate_to_homePage
+2019-12-25 02:29:05.525 [      main]TRACE                          - Executing the test case:validate_homePage
+2019-12-25 02:29:05.526 [      main]TRACE                          - Validating the home page title
+2019-12-25 02:29:05.601 [      main]TRACE                          - Home page title is validated
+2019-12-25 02:29:06.382 [      main]TRACE                          - Completed the testcase:validate_homePage
+2019-12-25 02:29:06.384 [      main]TRACE                          - Executing the test case:navigate_to_resultPage
+2019-12-25 02:29:06.386 [      main]TRACE                          - Navigating to the Result Page
+2019-12-25 02:29:09.169 [      main]TRACE                          - Navigated to Result Page
+2019-12-25 02:29:10.716 [      main]TRACE                          - Completed the testcase:navigate_to_resultPage
+2019-12-25 02:29:10.718 [      main]TRACE                          - Executing the test case:enteringInputInSearch
+2019-12-25 02:29:12.184 [      main]TRACE                          - Completed the testcase:enteringInputInSearch
+2019-12-25 02:29:12.187 [      main]TRACE                          - Executing the test case:navigate_to_reviewPage
+2019-12-25 02:29:12.685 [      main]TRACE                          - Completed the testcase:navigate_to_reviewPage
+2019-12-25 02:29:12.687 [      main]TRACE                          - Executing the test case:move_on_reviewLink
+2019-12-25 02:29:22.911 [      main]TRACE                          - Completed the testcase:move_on_reviewLink
+2019-12-25 02:29:22.912 [      main]TRACE                          - Executing the test case:click_on_reviewLink
+2019-12-25 02:29:23.979 [      main]TRACE                          - Completed the testcase:click_on_reviewLink
+2019-12-25 02:29:23.981 [      main]TRACE                          - Executing the test case:navigate_to_submit_review
+2019-12-25 02:29:26.506 [      main]TRACE                          - Completed the testcase:navigate_to_submit_review
+2019-12-25 02:29:26.508 [      main]TRACE                          - Executing the test case:review
+2019-12-25 02:29:29.299 [      main]TRACE                          - Completed the testcase:review
+2019-12-25 02:29:29.301 [      main]TRACE                          - Executing the test case:move_to_hotelRatings
+2019-12-25 02:29:29.896 [      main]TRACE                          - Completed the testcase:move_to_hotelRatings
+2019-12-25 02:29:29.898 [      main]TRACE                          - Executing the test case:ratings_for_hotel_ratings
+2019-12-25 02:29:30.652 [      main]TRACE                          - Completed the testcase:ratings_for_hotel_ratings
+2019-12-25 02:29:31.326 [      main]TRACE                          - Exceution has been completed

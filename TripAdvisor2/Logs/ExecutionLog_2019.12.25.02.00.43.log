@@ -1,0 +1,4 @@
+2019-12-25 02:00:44.736 [      main]TRACE                          - Initializting the log file in before suite
+2019-12-25 02:00:44.743 [      main]TRACE                          - beforetest annotations has been used for the test: Default test
+2019-12-25 02:00:44.778 [      main]TRACE                          - Executing the test case:review
+2019-12-25 02:00:45.398 [      main]TRACE                          - Exceution has been completed

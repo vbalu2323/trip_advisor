@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Test.ReviewSubmitTest">
+        <methods>
+          <include name="enteringInputInSearch"/>
+          <include name="aftersuite"/>
+          <include name="validate_homePage"/>
+          <include name="move_on_reviewLink"/>
+          <include name="beforeTest"/>
+          <include name="click_on_reviewLink"/>
+          <include name="navigate_to_reviewPage"/>
+          <include name="review"/>
+          <include name="navigate_to_submit_review"/>
+          <include name="navigate_to_homePage"/>
+          <include name="move_to_hotelRatings"/>
+          <include name="navigate_to_resultPage"/>
+          <include name="resultstatus"/>
+          <include name="ratings_for_hotel_ratings"/>
+          <include name="afterTest"/>
+          <include name="beforesuite"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- Test.ReviewSubmitTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
